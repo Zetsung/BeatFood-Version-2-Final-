@@ -208,3 +208,12 @@ button { cursor: pointer; }
   box-shadow: 0 16px 28px rgba(46, 31, 23, 0.35);
   animation: spin 24s linear infinite;
 }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+.now-card {
+  position: absolute; z-index: 3; left: calc(50% + 197px); bottom: 85px; width: 240px;
+  background: #fff; border: 1px solid #ff5900; border-radius: 12px; padding: 16px;
+  display: flex; flex-direction: column; gap: 12px;
+  box-shadow: 0 12px 12px rgba(75, 50, 37, 0.1), inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: #201c1a;
+}
