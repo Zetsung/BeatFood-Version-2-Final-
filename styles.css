@@ -134,3 +134,5 @@ button { cursor: pointer; }
   padding: 12px 24px; border-radius: 100px; border: 0;
   box-shadow: 0 4px 6px rgba(46, 31, 23, 0.25);
 }
+
+.phone { font-family: var(--font-mono); font-size: 14px; color: var(--ink); white-space: nowrap; }
