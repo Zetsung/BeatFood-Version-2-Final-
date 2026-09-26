@@ -196,3 +196,15 @@ button { cursor: pointer; }
     radial-gradient(circle at 35% 40%, #e6b884, #d19a5a 55%, #b98246);
   opacity: 0.95;
 }
+
+.hero-right { position: absolute; z-index: 1; left: calc(50% + 246px); top: 50%; transform: translateY(-50%); width: 480px; height: 480px; }
+.vinyl-ring { width: 480px; height: 480px; border: 1px dashed var(--tan); border-radius: 240px; display: grid; place-items: center; }
+.disc {
+  width: 420px; height: 420px; border-radius: 50%;
+  background:
+    radial-gradient(circle, #14110f 0 1.6%, #9c7a54 1.8% 20%, #4a3226 20.4% 21.4%, #9c7a54 21.8% 31%, transparent 31.4%),
+    conic-gradient(from 30deg, rgba(255,255,255,0) 0 18%, rgba(255,255,255,.12) 25%, rgba(255,255,255,0) 32%, rgba(255,255,255,0) 68%, rgba(255,255,255,.12) 75%, rgba(255,255,255,0) 82%),
+    repeating-radial-gradient(circle, #12100e 0 2px, #241d19 2px 3px);
+  box-shadow: 0 16px 28px rgba(46, 31, 23, 0.35);
+  animation: spin 24s linear infinite;
+}
