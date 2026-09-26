@@ -186,3 +186,13 @@ button { cursor: pointer; }
 .fader-val { font-family: var(--font-mono); font-size: 10px; color: var(--muted); }
 .rule { border: 0; border-top: 1px solid var(--line); width: 100%; margin: 0; }
 .console-foot { font-family: var(--font-mono); font-weight: 700; font-size: 12px; color: var(--brown); }
+
+.cork {
+  position: absolute; right: 0; top: 50%; transform: translateY(calc(-50% - 4px)); z-index: 0;
+  width: 523px; height: 692px; border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  background:
+    radial-gradient(#8f5f2f 1px, transparent 1.6px) 0 0 / 9px 9px,
+    radial-gradient(#6f4720 1px, transparent 1.6px) 4px 5px / 13px 11px,
+    radial-gradient(circle at 35% 40%, #e6b884, #d19a5a 55%, #b98246);
+  opacity: 0.95;
+}
