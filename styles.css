@@ -25,3 +25,25 @@
   --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #14100d;
+    --surface: #1e1814;
+    --row-a: #181310;
+    --row-b: #1e1814;
+    --ink: #f1ebe4;
+    --brown: #e6cfae;
+    --tan: #b8946a;
+    --muted: #a09a93;
+    --line: #322a24;
+    --lead: #f0d9b5;
+    --header-bg: rgba(255, 128, 0, 0.22);
+    --header-line: #6b5637;
+    --solid: #d8b48a;
+    --on-solid: #1f1a17;
+    --menu-veil: rgba(255, 255, 255, 0.03);
+    --shadow-card: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+}
