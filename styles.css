@@ -234,3 +234,19 @@ button { cursor: pointer; }
 .feature h3 { display: flex; gap: 8px; align-items: center; font-size: 20px; color: #9c7a54; line-height: normal; }
 .feature h3 span[aria-hidden] { font-family: "Inter", var(--font-body); font-weight: 400; }
 .feature p { font-size: 14px; line-height: 1.5; color: var(--on-dark); }
+
+.featured .wrap { padding-top: 80px; padding-bottom: 64px; display: flex; flex-direction: column; gap: 56px; }
+.section-head { display: flex; flex-direction: column; gap: 8px; }
+.section-head.center { align-items: center; text-align: center; }
+.cards { display: flex; gap: 32px; align-items: stretch; }
+.dish-card { flex: 1 1 0; min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow-card); overflow: hidden; display: flex; flex-direction: column; }
+.card-image { height: 260px; padding: 16px; display: flex; align-items: flex-start; }
+.badge { position: relative; z-index: 2; background: #fafaf8; color: #4a3226; font-family: var(--font-mono); font-weight: 700; font-size: 11px; padding: 6px 12px; border-radius: 100px; line-height: normal; }
+.card-details { padding: 24px; display: flex; flex-direction: column; gap: 16px; }
+.track-no { font-family: var(--font-mono); font-weight: 700; font-size: 12px; color: var(--muted); }
+.title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.title-row h3 { font-size: 20px; color: var(--ink); line-height: normal; }
+.price { font-family: var(--font-mono); font-weight: 700; font-size: 16px; color: var(--brown); white-space: nowrap; }
+.card-details p { font-size: 14px; line-height: 1.6; color: var(--brown); }
+
+.bar { height: 12px; background: var(--dark); }
