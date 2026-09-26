@@ -137,3 +137,4 @@ button { cursor: pointer; }
 
 .phone { font-family: var(--font-mono); font-size: 14px; color: var(--ink); white-space: nowrap; }
 .nav-toggle { display: none; background: none; border: 1px solid var(--brown); border-radius: 8px; width: 44px; height: 44px; align-items: center; justify-content: center; }
+.nav-toggle svg { stroke: var(--brown); }
