@@ -272,3 +272,13 @@ button { cursor: pointer; }
 .m-row.short .photo { flex: 1 1 0; min-width: 0; border-radius: 16px; }
 .photo.tint-brown { --tint: rgba(74, 50, 38, 0.1); }
 .about-grid { display: flex; gap: 32px; }
+
+/* ---------- Reviews ---------- */
+.reviews { background: var(--dark); }
+.reviews .wrap { padding-top: 100px; padding-bottom: 100px; display: flex; flex-direction: column; gap: 64px; }
+.reviews h2 { color: #fff; }
+.review-grid { display: flex; gap: 32px; }
+.review { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 24px; padding: 32px; border-radius: 16px; background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1); margin: 0; }
+.stars { font-size: 20px; color: #9c7a54; line-height: normal; letter-spacing: 0; }
+.review blockquote { margin: 0; font-family: var(--font-display); font-style: italic; font-weight: 400; font-variation-settings: "SOFT" 0, "WONK" 1; font-size: 18px; line-height: 1.6; color: var(--on-dark); }
+.review figcaption { font-family: var(--font-mono); font-weight: 700; font-size: 12px; text-transform: uppercase; color: #8b8680; }
