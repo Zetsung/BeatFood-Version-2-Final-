@@ -227,3 +227,10 @@ button { cursor: pointer; }
 .now-bar { flex: 1; height: 4px; border-radius: 2px; background: #eae7e2; overflow: hidden; }
 .now-bar i { display: block; height: 100%; width: 80%; background: #4a3226; }
 .now-time { font-family: var(--font-mono); font-size: 10px; color: #8b8680; }
+
+.features { background: var(--dark); }
+.features .wrap { display: flex; gap: 48px; padding-top: 56px; padding-bottom: 56px; }
+.feature { flex: 1 1 0; min-width: 0; border-left: 4px solid #9c7a54; padding-left: 24px; display: flex; flex-direction: column; gap: 12px; }
+.feature h3 { display: flex; gap: 8px; align-items: center; font-size: 20px; color: #9c7a54; line-height: normal; }
+.feature h3 span[aria-hidden] { font-family: "Inter", var(--font-body); font-weight: 400; }
+.feature p { font-size: 14px; line-height: 1.5; color: var(--on-dark); }
