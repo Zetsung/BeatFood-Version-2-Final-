@@ -217,3 +217,13 @@ button { cursor: pointer; }
   box-shadow: 0 12px 12px rgba(75, 50, 37, 0.1), inset 0 4px 4px rgba(0, 0, 0, 0.25);
   color: #201c1a;
 }
+
+.now-top { display: flex; align-items: center; gap: 8px; }
+.now-top i { width: 8px; height: 8px; border-radius: 50%; background: #d64527; box-shadow: 0 0 0 3px rgba(214, 69, 39, .2); }
+.now-top span { font-family: var(--font-mono); font-weight: 700; font-size: 11px; text-transform: uppercase; color: #8b8680; }
+.now-title { font-size: 16px; color: #4a3226; line-height: normal; }
+.now-sub { font-size: 13px; color: #8b8680; }
+.now-progress { display: flex; align-items: center; gap: 8px; }
+.now-bar { flex: 1; height: 4px; border-radius: 2px; background: #eae7e2; overflow: hidden; }
+.now-bar i { display: block; height: 100%; width: 80%; background: #4a3226; }
+.now-time { font-family: var(--font-mono); font-size: 10px; color: #8b8680; }
