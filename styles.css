@@ -104,3 +104,10 @@ button { cursor: pointer; }
 .wrap { width: 100%; max-width: 1440px; margin: 0 auto; padding-left: 80px; padding-right: 80px; }
 .eyebrow-label { font-family: var(--font-mono); font-weight: 700; font-size: 13px; text-transform: uppercase; color: var(--tan); line-height: normal; }
 .section-title { font-size: 40px; color: var(--brown); line-height: normal; }
+
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  height: 96px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--header-line);
+}
