@@ -165,3 +165,17 @@ button { cursor: pointer; }
   background: var(--surface); border: 1px solid var(--console-line); border-radius: 16px; padding: 24px;
   display: flex; flex-direction: column; gap: 20px; box-shadow: 0 8px 12px rgba(46, 31, 23, 0.03);
 }
+
+.console-head { display: flex; align-items: center; justify-content: space-between; }
+.console-head .mono { font-size: 12px; text-transform: uppercase; color: var(--muted); }
+.leds { display: flex; gap: 6px; }
+.leds i { width: 8px; height: 8px; border-radius: 50%; }
+.leds i:nth-child(1) { background: #d64527; }
+.leds i:nth-child(2) { background: #9c7a54; }
+.leds i:nth-child(3) { background: #6e8b75; }
+.faders { display: flex; gap: 32px; }
+.fader { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.track {
+  position: relative; width: 8px; height: 100px; background: var(--line); border-radius: 4px;
+  display: flex; flex-direction: column; justify-content: flex-end; cursor: ns-resize; touch-action: none;
+}
