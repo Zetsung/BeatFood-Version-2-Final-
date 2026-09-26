@@ -138,3 +138,12 @@ button { cursor: pointer; }
 .phone { font-family: var(--font-mono); font-size: 14px; color: var(--ink); white-space: nowrap; }
 .nav-toggle { display: none; background: none; border: 1px solid var(--brown); border-radius: 8px; width: 44px; height: 44px; align-items: center; justify-content: center; }
 .nav-toggle svg { stroke: var(--brown); }
+
+.photo { position: relative; overflow: hidden; background: linear-gradient(135deg, var(--a, #6a4a36), var(--b, #2e1f17)); isolation: isolate; }
+.photo::before { content: ""; position: absolute; inset: 0; background: var(--tint, rgba(46, 31, 23, 0.15)); z-index: 1; }
+.photo::after {
+  content: attr(data-label);
+  position: absolute; right: 12px; bottom: 10px; z-index: 1;
+  font-family: var(--font-mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase;
+  color: rgba(250, 250, 248, 0.55);
+}
