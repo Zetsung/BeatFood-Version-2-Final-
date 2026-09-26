@@ -179,3 +179,10 @@ button { cursor: pointer; }
   position: relative; width: 8px; height: 100px; background: var(--line); border-radius: 4px;
   display: flex; flex-direction: column; justify-content: flex-end; cursor: ns-resize; touch-action: none;
 }
+
+.track::before { content: ""; position: absolute; inset: 0 -14px; } /* larger hit area */
+.fill { width: 8px; border-radius: 4px; background: var(--c); }
+.fader-name { font-family: var(--font-mono); font-weight: 700; font-size: 11px; color: var(--ink); }
+.fader-val { font-family: var(--font-mono); font-size: 10px; color: var(--muted); }
+.rule { border: 0; border-top: 1px solid var(--line); width: 100%; margin: 0; }
+.console-foot { font-family: var(--font-mono); font-weight: 700; font-size: 12px; color: var(--brown); }
