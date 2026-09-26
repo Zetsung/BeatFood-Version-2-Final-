@@ -111,3 +111,5 @@ button { cursor: pointer; }
   background: var(--bg);
   border-bottom: 1px solid var(--header-line);
 }
+
+.site-header::before { content: ""; position: absolute; inset: 0; background: var(--header-bg); pointer-events: none; }
