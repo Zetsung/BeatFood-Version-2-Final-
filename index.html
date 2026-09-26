@@ -1,360 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>BeatFood — Flavor that hits different.</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,700,0,1;1,9..144,400,0,1;1,9..144,700,0,1&family=Public+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BeatFood — Flavor that hits different.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,700,0,1;1,9..144,400,0,1;1,9..144,700,0,1&family=Public+Sans:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
-<body class="site-header">
-    <div class = "wrap">"
-        <a class="logo" href="#top" aria-label="BeatFood home">
-            <span class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
-            <span class="wordmark display">Beat<em>Food</em></span>
-        </a>
-        <nav class="nav" id="nav" aria-label="Main">
-            <a href="#top">Home</a>
-            <a href="#menu">Menu</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact Us</a>
-        </nav>
-        <div class="header-right">
-            <a class="btn-reserve" href="#reserve">Reserve</a>
-            <a class="phone" href="tel:+63459921200">+63 (45) 992-1200</a>
-        </div>
-        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-        </button>
+<body id="top">
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="BeatFood home">
+      <span class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <span class="wordmark display">Beat<em>Food</em></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#top">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About us</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="header-right">
+      <a class="btn-reserve" href="#reserve">Reserve</a>
+      <a class="phone" href="tel:+63459921200">+63 (45) 992-1200</a>
     </div>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
 
-    <main>
-        <section class="hero" aria-labelledby="hero-title">
-            <div class="wrap">
-                <div class="cork" aria-hidden="true"></div>
+<main>
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="cork" aria-hidden="true"></div>
 
-                <div class="hero-left">
-                    <div class="eyebrow">
-                        <i aria-hidden="true"></i>
-                        <span class="eyebrow-label">Now Serving · Mon–Sun</span>
-                    </div>
-                    <h1 class="display" id="hero-title">Flavor that hits <em>different.</em></h1>
-                    <p class="lead">Welcome to Angeles City's boldest main-dish destination. Where artisanal ingredients collide with the raw energy of vinyl culture. Every plate is mixed to perfection, served with a bassline you can feel.</p>
-                    <div class="actions">
-                        <a class="btn btn-solid" href="#menu">View the Menu</a>
-                        <a class="btn btn-outline" href="#reserve">Reserve a Table</a>
-                    </div>
-
-                    <div class="console" role="group" aria-label="Flavor Console">
-                        <div class="console-head">
-                            <span class="mono">Flavor Console v1.0</span>
-                            <span class="leds" aria-hidden="true"><i></i><i></i><i></i></span>
-                        </div>
-                        <div class="faders">
-                            <div class="fader">
-                                <div class="track" role="slider" tabindex="0" aria-label="Spice" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" style="--c:#d64527"><div class="fill" style="height:85%"></div></div>
-                                <span class="fader-name">Spice</span><span class="fader-val">85%</span>
-                            </div>
-                            <div class="fader">
-                            <div class="track" role="slider" tabindex="0" aria-label="Char" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="--c:#201c1a"><div class="fill" style="height:60%"></div></div>
-                                <span class="fader-name">Char</span><span class="fader-val">60%</span>
-                            </div>
-                            <div class="fader">
-                                <div class="track" role="slider" tabindex="0" aria-label="Umami" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95" style="--c:#9c7a54"><div class="fill" style="height:95%"></div></div>
-                                <span class="fader-name">Umami</span><span class="fader-val">95%</span>
-                            </div>
-                            <div class="fader">
-                                <div class="track" role="slider" tabindex="0" aria-label="Fresh" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" style="--c:#6e8b75"><div class="fill" style="height:70%"></div></div>
-                                <span class="fader-name">Fresh</span><span class="fader-val">70%</span>
-                            </div>
-                        </div>
-                        <hr class="rule">
-                        <p class="console-foot">4.9★ from 1,200+ diners · 18 mains · open 7AM–11PM</p>
-                    </div>
-                </div>
-
-                <div class="hero-right" aria-hidden="true">
-                    div class="vinyl-ring"><div class="disc"></div></div>
-                </div>
-
-                <aside class="now-card" aria-label="Now spinning">
-                    <div class="now-top"><i aria-hidden="true"></i><span>Now Spinning</span></div>
-                    <div style="display:flex;flex-direction:column;gap:4px">
-                        <p class="now-title display">Chili Beat Bowl</p>
-                        <p class="now-sub">Track 01 · 128 BPM</p>
-                    </div>
-                    <div class="now-progress">
-                        <div class="now-bar"><i></i></div>
-                        <span class="now-time">3:25</span>
-                    </div>
-                </aside>
-            </div>
-        </section>
-
-        <section>
-            <div class="wrap">
-                <div class="feature">
-                    <h3 class="display"><span aria-hidden="true">🔥</span>Fresh, Fired Daily</h3>
-                    <p>Every single dish is constructed from scratch at order, fired over local hardwoods for authentic smoky baseline flavor.</p>
-                </div>
-                <div class="feature">
-                    <h3 class="display"><span aria-hidden="true">🌶️</span>Bold by Default</h3>
-                    <p>No mild compromises. We compose culinary tracklists that dare to crank the spice faders to the absolute maximum.</p>
-                </div>
-                <div class="feature">
-                    <h3 class="display"><span aria-hidden="true">🌿</span>Locally Sourced</h3>
-                    <p>Partnering closely with Central Luzon's finest farmers to secure organic greens and premium sustainable meats.</p>
-                </div>
-            </div>
-        </section>
-        
-        <section class="featured" aria-labelledby="featured-title">
-            <div class="wrap">
-                <div class="section-head">
-                    <span class="eyebrow-label">Featured</span>
-                    <h2 class="section-title display" id="featured-title">This Week's Beats</h2>
-                </div>
-                <div class="cards">
-                    <article class="dish-card">
-                        <div class="card-image photo" data-label="Photo · Chili Beat Bowl" style="--a:#8a3a22;--b:#3a1a10" role="img" aria-label="Photo of the Chili Beat Bowl">
-                            <span class="badge">Spicy 🌶️🌶️</span>
-                        </div>
-                        <div class="card-details">
-                            <p class="track-no">TRACK 01</p>
-                            <div class="title-row"><h3 class="display">Chili Beat Bowl</h3><span class="price">₱325</span></div>
-                            <p>A hot compilation of slow-braised pork shoulder, red hot chilis, and wild rice, tuned to hit dynamic umami notes.</p>
-                        </div>
-                    </article>
-                    <article class="dish-card">
-                        <div class="card-image photo" data-label="Photo · Mango Groove Chicken" style="--a:#c98a3c;--b:#5a3a1c" role="img" aria-label="Photo of the Mango Groove Chicken">
-                            <span class="badge">Crowd Favorite</span>
-                        </div>
-                        <div class="card-details">
-                            <p class="track-no">TRACK 02</p>
-                            <div class="title-row"><h3 class="display">Mango Groove Chicken</h3><span class="price">₱295</span></div>
-                            <p>Sweet wood-fired chicken thigh glazed with fresh mango reduction, served with roasted seasonal vegetables and mint.</p>
-                        </div>
-                    </article>
-                    <article class="dish-card">
-                        <div class="card-image photo" data-label="Photo · Basil Bassline Pasta" style="--a:#6e8b52;--b:#2c3a22" role="img" aria-label="Photo of the Basil Bassline Pasta">
-                            <span class="badge">Vegetarian</span>
-                        </div>
-                        <div class="card-details">
-                            <p class="track-no">TRACK 03</p>
-                            <div class="title-row"><h3 class="display">Basil Bassline Pasta</h3><span class="price">₱260</span></div>
-                            <p>Thick hand-rolled pasta strands smothered in fresh sweet basil pesto, finished with high-fidelity local parmesan.</p>
-                            </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <div class="bar" aria-hidden="true"></div>
-
-         <!-- Menu -->
-        <section class="menu" id="menu" aria-labelledby="menu-title">
-            <div class="wrap">
-                <div class="section-head center">
-                    <span class="eyebrow-label">The Discography</span>
-                    <h2 class="display" id="menu-title">The Tracklist</h2>
-                </div>
-                <div class="split">
-                    <div class="side">
-                        <h3>Side A — Starters</h3>
-                        <div>
-                            <div class="row"><span class="no">01</span><div class="info"><b>Smoked Garlic Bread</b><span>Fired with local garlic herb butter</span></div><span class="cost">₱110</span></div>
-                            <div class="row"><span class="no">02</span><div class="info"><b>Tomato Ember Soup</b><span>Charred sweet vine tomatoes &amp; cream</span></div><span class="cost">₱135</span></div>
-                            <div class="row"><span class="no">03</span><div class="info"><b>Crispy Calamari Beat</b><span>Tender ring cuts with spicy vinegar dip</span></div><span class="cost">₱180</span></div>
-                            <div class="row"><span class="no">04</span><div class="info"><b>Charred Corn Salad</b><span>Fresh sweet kernels with cheese &amp; lime</span></div><span class="cost">₱150</span></div>
-                        </div>
-                    </div>
-                    <div class="side">
-                        <h3>Side B — Main Dishes</h3>
-                        <div>
-                            <div class="row"><span class="no">05</span><div class="info"><b>Chili Beat Bowl</b><span>Braised pork shoulder with red hot chilis</span></div><span class="cost">₱325</span></div>
-                            <div class="row"><span class="no">06</span><div class="info"><b>Mango Groove Chicken</b><span>Wood-fired breast with sweet mango glaze</span></div><span class="cost">₱295</span></div>
-                            <div class="row"><span class="no">07</span><div class="info"><b>Basil Bassline Pasta</b><span>Thick hand-rolled noodles in rich pesto</span></div><span class="cost">₱260</span></div>
-                            <div class="row"><span class="no">08</span><div class="info"><b>Tomato Tempo Risotto</b><span>Creamy risotto with fire-roasted toppings</span></div><span class="cost">₱310</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="bar" aria-hidden="true"></div>
-
-        <!-- Gallery + Mission / Vision -->
-        <section class="gallery" id="about" aria-labelledby="gallery-title">
-            <div class="wrap">
-                <div class="section-head">
-                    <span class="eyebrow-label">Inside the groove</span>
-                    <h2 class="section-title display" id="gallery-title">From the Kitchen &amp; Floor</h2>
-                </div>
-                <div class="masonry">
-                    <div class="m-row tall">
-                        <div class="m-big photo tint-brown" data-label="Photo · Kitchen pass" style="--a:#3f5f7a;--b:#1a1f24" role="img" aria-label="Chefs plating dishes in the open kitchen"></div>
-                        <div class="m-stack">
-                            <div class="photo tint-brown" data-label="Photo · Dining room" style="--a:#b5763a;--b:#3a2114" role="img" aria-label="The warm-lit dining room"></div>
-                            <div class="photo tint-brown" data-label="Photo · Plated main" style="--a:#d9b48a;--b:#6a4630" role="img" aria-label="A plated main dish"></div>
-                        </div>
-                    </div>
-                    <div class="m-row short">
-                        <div class="photo tint-brown" data-label="Photo · Bar &amp; floor" style="--a:#7a3f4a;--b:#241418" role="img" aria-label="Wine glasses on a dining table"></div>
-                        <div class="photo tint-brown" data-label="Photo · Fresh pasta" style="--a:#c9a46a;--b:#4a3226" role="img" aria-label="Hands tossing fresh pasta"></div>
-                        <div class="photo tint-brown" data-label="Photo · Wood-fire oven" style="--a:#c2612a;--b:#2a1710" role="img" aria-label="The wood-fired oven"></div>
-                    </div>
-                </div>
-
-                <div class="about-grid">
-                    <article class="dish-card">
-                        <div class="card-details">
-                            <div class="title-row"><h3 class="display">Mission</h3></div>
-                            <p>We want to serve fresh, tasty food that people actually enjoy, in a place that feels warm and welcoming — not fancy or stiff. We want every customer to feel like they belong here, even on their first visit.</p>
-                        </div>
-                    </article>
-                    <article class="dish-card">
-                        <div class="card-details">
-                            <div class="title-row"><h3 class="display">Vision</h3></div>
-                            <p>We want BeatFood to be the first place people think of when they want good food and a nice time — whether it's a birthday, a date, or just a regular dinner out. We want people to keep coming back, and to bring their friends and family with them.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Reviews -->
-        <section class="reviews" aria-labelledby="reviews-title">
-            <div class="wrap">
-                <div class="section-head center">
-                    <span class="eyebrow-label">Crowd Reaction</span>
-                    <h2 class="section-title display" id="reviews-title">On Repeat With Diners</h2>
-                </div>
-                <div class="review-grid">
-                    <figure class="review">
-                        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
-                        <blockquote>"The Chili Beat Bowl holds down the low end perfectly. Incredible heat index that starts robust and lingers beautifully. Absolute culinary genius."</blockquote>
-                        <figcaption>— J. Santos</figcaption>
-                    </figure>
-                    <figure class="review">
-                        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
-                        <blockquote>"BeatFood is an absolute visual and sensory treat. The audio elements are gorgeous, but the actual fire-roasted mains steal the entire show."</blockquote>
-                        <figcaption>— R. Dela Cruz</figcaption>
-                    </figure>
-                    <figure class="review">
-                        <div class="stars" role="img" aria-label="4 out of 5 stars">★★★★☆</div>
-                        <blockquote>"Superb concept, flawless service. The Basil Bassline pesto has a fantastic crunch. A certified chart-topper for date night in Angeles."</blockquote>
-                        <figcaption>— M. Villanueva</figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Reserve -->
-            <section class="reserve" id="reserve" aria-labelledby="reserve-title">
-                <div class="wrap">
-                    <div class="reserve-left">
-                        <span class="eyebrow-label">Secure Entry</span>
-                        <h2 class="display" id="reserve-title">Save Your Seat at the Table</h2>
-                        <p class="body">Reservations are highly recommended to secure prime booth seating beside the DJ console deck. Walk-ins are accommodated strictly subject to tracklist availability.</p>
-                        <div class="hours">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                            <span>Mon–Sun 7:00 AM – 11:00 PM</span>
-                        </div>
-                    </div>
-
-                    <div class="ticket" id="ticket">
-                        <span class="notch l" aria-hidden="true"></span>
-                        <span class="notch r" aria-hidden="true"></span>
-                        <form id="reserveForm" novalidate>
-                            <div class="ticket-head">
-                                <span class="t">Admit One Tab</span>
-                                <span class="n">№ 08246</span>
-                            </div>
-                            <div class="form-row">
-                                <div class="field"><label for="name">Your Name</label><input id="name" name="name" type="text" placeholder="M. dela Cruz" autocomplete="name" required></div>
-                                <div class="field"><label for="party">Party Size</label>
-                                    <select id="party" name="party" required>
-                                        <option value="1">1 Guest</option>
-                                        <option value="2" selected>2 Guests</option>
-                                        <option value="3">3 Guests</option>
-                                        <option value="4">4 Guests</option>
-                                        <option value="5">5 Guests</option>
-                                        <option value="6">6 Guests</option>
-                                        <option value="7">7 Guests</option>
-                                        <option value="8">8 Guests</option>
-                                    </select>
-                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="field"><label for="date">Date</label><input id="date" name="date" type="date" required></div>
-                            <div class="field"><label for="time">Time Slot</label>
-                                <select id="time" name="time" required>
-                                    <option>12:00 PM</option><option>1:00 PM</option><option>6:00 PM</option><option>7:00 PM</option>
-                                    <option selected>7:30 PM</option><option>8:00 PM</option><option>9:00 PM</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="field"><label for="phone">Contact Information</label><input id="phone" name="phone" type="tel" placeholder="0950-6544-645" autocomplete="tel" required></div>
-                            <div class="field"><label for="birthday">Birthday <span style="text-transform:none;font-weight:400">(optional)</span></label><input id="birthday" name="birthday" type="date"></div>
-                        </div>
-                        <div class="form-row">
-                            <div class="field"><label for="email">Email Address</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
-                            <div></div>
-                        </div>
-                        <button class="submit" type="submit">Confirm Reservation</button>
-                        <p class="status" id="status" role="status" aria-live="polite"></p>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer" id="contact">
-        <div class="wrap">
-            <div class="footer-grid">
-                <div class="footer-col brand">
-                    <p class="wordmark display">Beat<em>Food</em></p>
-                    <p class="about">Main dishes with a pulse. Come hungry, leave humming. The ultimate destination for food &amp; vinyl fans in Pampanga.</p>
-                    <div class="socials">
-                        <a href="#" aria-label="BeatFood on Facebook">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                        </a>
-                        <a href="#" aria-label="BeatFood on Instagram">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5"/></svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Visit</h4>
-                    <p class="txt">128 Rhythm Ave, Angeles City, Pampanga, Philippines</p>
-                    <p class="txt m">+63 (45) 992-1200</p>
-                    <p class="txt m">seandeniel3@gmail.com</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Hours</h4>
-                    <ul class="txt">
-                        <li>Mon - Fri: 7:00 AM - 11:00 PM</li>
-                        <li>Sat - Sun: 8:00 AM - 12:00 AM</li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Explore</h4>
-                    <ul class="links">
-                        <li><a href="#menu">Menu Tracklist</a></li>
-                        <li><a href="#top">Diner Reviews</a></li>
-                        <li><a href="#reserve">Table Reservations</a></li>
-                        <li><a href="#about">Acoustic Concept</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <div class="footer-bottom">
-                <p>© 2026 BeatFood. All rights reserved.</p>
-                <p class="m">Midterm Mockup — School of Computing, Holy Angel University</p>
-            </div>
+      <div class="hero-left">
+        <div class="eyebrow">
+          <i aria-hidden="true"></i>
+          <span class="eyebrow-label">Now Serving · Mon–Sun</span>
         </div>
-    </footer>
-<script scr="script.js" defer> </script>
+        <h1 class="display" id="hero-title">Flavor that hits <em>different.</em></h1>
+        <p class="lead">Welcome to Angeles City's boldest main-dish destination. Where artisanal ingredients collide with the raw energy of vinyl culture. Every plate is mixed to perfection, served with a bassline you can feel.</p>
+        <div class="actions">
+          <a class="btn btn-solid" href="#menu">View the Menu</a>
+          <a class="btn btn-outline" href="#reserve">Reserve a Table</a>
+        </div>
+
+        <div class="console" role="group" aria-label="Flavor Console">
+          <div class="console-head">
+            <span class="mono">Flavor Console v1.0</span>
+            <span class="leds" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+          <div class="faders">
+            <div class="fader">
+              <div class="track" role="slider" tabindex="0" aria-label="Spice" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85" style="--c:#d64527"><div class="fill" style="height:85%"></div></div>
+              <span class="fader-name">Spice</span><span class="fader-val">85%</span>
+            </div>
+            <div class="fader">
+              <div class="track" role="slider" tabindex="0" aria-label="Char" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60" style="--c:#201c1a"><div class="fill" style="height:60%"></div></div>
+              <span class="fader-name">Char</span><span class="fader-val">60%</span>
+            </div>
+            <div class="fader">
+              <div class="track" role="slider" tabindex="0" aria-label="Umami" aria-valuemin="0" aria-valuemax="100" aria-valuenow="95" style="--c:#9c7a54"><div class="fill" style="height:95%"></div></div>
+              <span class="fader-name">Umami</span><span class="fader-val">95%</span>
+            </div>
+            <div class="fader">
+              <div class="track" role="slider" tabindex="0" aria-label="Fresh" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" style="--c:#6e8b75"><div class="fill" style="height:70%"></div></div>
+              <span class="fader-name">Fresh</span><span class="fader-val">70%</span>
+            </div>
+          </div>
+          <hr class="rule">
+          <p class="console-foot">4.9★ from 1,200+ diners · 18 mains · open 7AM–11PM</p>
+        </div>
+      </div>
+
+      <div class="hero-right" aria-hidden="true">
+        <div class="vinyl-ring"><div class="disc"></div></div>
+      </div>
+
+      <aside class="now-card" aria-label="Now spinning">
+        <div class="now-top"><i aria-hidden="true"></i><span>Now Spinning</span></div>
+        <div style="display:flex;flex-direction:column;gap:4px">
+          <p class="now-title display">Chili Beat Bowl</p>
+          <p class="now-sub">Track 01 · 128 BPM</p>
+        </div>
+        <div class="now-progress">
+          <div class="now-bar"><i></i></div>
+          <span class="now-time">3:25</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Feature strip -->
+  <section class="features" aria-label="Why BeatFood">
+    <div class="wrap">
+      <div class="feature">
+        <h3 class="display"><span aria-hidden="true">🔥</span>Fresh, Fired Daily</h3>
+        <p>Every single dish is constructed from scratch at order, fired over local hardwoods for authentic smoky baseline flavor.</p>
+      </div>
+      <div class="feature">
+        <h3 class="display"><span aria-hidden="true">🌶️</span>Bold by Default</h3>
+        <p>No mild compromises. We compose culinary tracklists that dare to crank the spice faders to the absolute maximum.</p>
+      </div>
+      <div class="feature">
+        <h3 class="display"><span aria-hidden="true">🌿</span>Locally Sourced</h3>
+        <p>Partnering closely with Central Luzon's finest farmers to secure organic greens and premium sustainable meats.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured -->
+  <section class="featured" aria-labelledby="featured-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow-label">Featured</span>
+        <h2 class="section-title display" id="featured-title">This Week's Beats</h2>
+      </div>
+      <div class="cards">
+        <article class="dish-card">
+          <div class="card-image photo" data-label="Photo · Chili Beat Bowl" style="--a:#8a3a22;--b:#3a1a10" role="img" aria-label="Photo of the Chili Beat Bowl">
+            <span class="badge">Spicy 🌶️🌶️</span>
+          </div>
+          <div class="card-details">
+            <p class="track-no">TRACK 01</p>
+            <div class="title-row"><h3 class="display">Chili Beat Bowl</h3><span class="price">₱325</span></div>
+            <p>A hot compilation of slow-braised pork shoulder, red hot chilis, and wild rice, tuned to hit dynamic umami notes.</p>
+          </div>
+        </article>
+        <article class="dish-card">
+          <div class="card-image photo" data-label="Photo · Mango Groove Chicken" style="--a:#c98a3c;--b:#5a3a1c" role="img" aria-label="Photo of the Mango Groove Chicken">
+            <span class="badge">Crowd Favorite</span>
+          </div>
+          <div class="card-details">
+            <p class="track-no">TRACK 02</p>
+            <div class="title-row"><h3 class="display">Mango Groove Chicken</h3><span class="price">₱295</span></div>
+            <p>Sweet wood-fired chicken thigh glazed with fresh mango reduction, served with roasted seasonal vegetables and mint.</p>
+          </div>
+        </article>
+        <article class="dish-card">
+          <div class="card-image photo" data-label="Photo · Basil Bassline Pasta" style="--a:#6e8b52;--b:#2c3a22" role="img" aria-label="Photo of the Basil Bassline Pasta">
+            <span class="badge">Vegetarian</span>
+          </div>
+          <div class="card-details">
+            <p class="track-no">TRACK 03</p>
+            <div class="title-row"><h3 class="display">Basil Bassline Pasta</h3><span class="price">₱260</span></div>
+            <p>Thick hand-rolled pasta strands smothered in fresh sweet basil pesto, finished with high-fidelity local parmesan.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="bar" aria-hidden="true"></div>
+
+  <!-- Menu -->
+  <section class="menu" id="menu" aria-labelledby="menu-title">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="eyebrow-label">The Discography</span>
+        <h2 class="display" id="menu-title">The Tracklist</h2>
+      </div>
+      <div class="split">
+        <div class="side">
+          <h3>Side A — Starters</h3>
+          <div>
+            <div class="row"><span class="no">01</span><div class="info"><b>Smoked Garlic Bread</b><span>Fired with local garlic herb butter</span></div><span class="cost">₱110</span></div>
+            <div class="row"><span class="no">02</span><div class="info"><b>Tomato Ember Soup</b><span>Charred sweet vine tomatoes &amp; cream</span></div><span class="cost">₱135</span></div>
+            <div class="row"><span class="no">03</span><div class="info"><b>Crispy Calamari Beat</b><span>Tender ring cuts with spicy vinegar dip</span></div><span class="cost">₱180</span></div>
+            <div class="row"><span class="no">04</span><div class="info"><b>Charred Corn Salad</b><span>Fresh sweet kernels with cheese &amp; lime</span></div><span class="cost">₱150</span></div>
+          </div>
+        </div>
+        <div class="side">
+          <h3>Side B — Main Dishes</h3>
+          <div>
+            <div class="row"><span class="no">05</span><div class="info"><b>Chili Beat Bowl</b><span>Braised pork shoulder with red hot chilis</span></div><span class="cost">₱325</span></div>
+            <div class="row"><span class="no">06</span><div class="info"><b>Mango Groove Chicken</b><span>Wood-fired breast with sweet mango glaze</span></div><span class="cost">₱295</span></div>
+            <div class="row"><span class="no">07</span><div class="info"><b>Basil Bassline Pasta</b><span>Thick hand-rolled noodles in rich pesto</span></div><span class="cost">₱260</span></div>
+            <div class="row"><span class="no">08</span><div class="info"><b>Tomato Tempo Risotto</b><span>Creamy risotto with fire-roasted toppings</span></div><span class="cost">₱310</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bar" aria-hidden="true"></div>
+
+  <!-- Gallery + Mission / Vision -->
+  <section class="gallery" id="about" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow-label">Inside the groove</span>
+        <h2 class="section-title display" id="gallery-title">From the Kitchen &amp; Floor</h2>
+      </div>
+      <div class="masonry">
+        <div class="m-row tall">
+          <div class="m-big photo tint-brown" data-label="Photo · Kitchen pass" style="--a:#3f5f7a;--b:#1a1f24" role="img" aria-label="Chefs plating dishes in the open kitchen"></div>
+          <div class="m-stack">
+            <div class="photo tint-brown" data-label="Photo · Dining room" style="--a:#b5763a;--b:#3a2114" role="img" aria-label="The warm-lit dining room"></div>
+            <div class="photo tint-brown" data-label="Photo · Plated main" style="--a:#d9b48a;--b:#6a4630" role="img" aria-label="A plated main dish"></div>
+          </div>
+        </div>
+        <div class="m-row short">
+          <div class="photo tint-brown" data-label="Photo · Bar &amp; floor" style="--a:#7a3f4a;--b:#241418" role="img" aria-label="Wine glasses on a dining table"></div>
+          <div class="photo tint-brown" data-label="Photo · Fresh pasta" style="--a:#c9a46a;--b:#4a3226" role="img" aria-label="Hands tossing fresh pasta"></div>
+          <div class="photo tint-brown" data-label="Photo · Wood-fire oven" style="--a:#c2612a;--b:#2a1710" role="img" aria-label="The wood-fired oven"></div>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <article class="dish-card">
+          <div class="card-details">
+            <div class="title-row"><h3 class="display">Mission</h3></div>
+            <p>We want to serve fresh, tasty food that people actually enjoy, in a place that feels warm and welcoming — not fancy or stiff. We want every customer to feel like they belong here, even on their first visit.</p>
+          </div>
+        </article>
+        <article class="dish-card">
+          <div class="card-details">
+            <div class="title-row"><h3 class="display">Vision</h3></div>
+            <p>We want BeatFood to be the first place people think of when they want good food and a nice time — whether it's a birthday, a date, or just a regular dinner out. We want people to keep coming back, and to bring their friends and family with them.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews" aria-labelledby="reviews-title">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="eyebrow-label">Crowd Reaction</span>
+        <h2 class="section-title display" id="reviews-title">On Repeat With Diners</h2>
+      </div>
+      <div class="review-grid">
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>"The Chili Beat Bowl holds down the low end perfectly. Incredible heat index that starts robust and lingers beautifully. Absolute culinary genius."</blockquote>
+          <figcaption>— J. Santos</figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>"BeatFood is an absolute visual and sensory treat. The audio elements are gorgeous, but the actual fire-roasted mains steal the entire show."</blockquote>
+          <figcaption>— R. Dela Cruz</figcaption>
+        </figure>
+        <figure class="review">
+          <div class="stars" role="img" aria-label="4 out of 5 stars">★★★★☆</div>
+          <blockquote>"Superb concept, flawless service. The Basil Bassline pesto has a fantastic crunch. A certified chart-topper for date night in Angeles."</blockquote>
+          <figcaption>— M. Villanueva</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reserve -->
+  <section class="reserve" id="reserve" aria-labelledby="reserve-title">
+    <div class="wrap">
+      <div class="reserve-left">
+        <span class="eyebrow-label">Secure Entry</span>
+        <h2 class="display" id="reserve-title">Save Your Seat at the Table</h2>
+        <p class="body">Reservations are highly recommended to secure prime booth seating beside the DJ console deck. Walk-ins are accommodated strictly subject to tracklist availability.</p>
+        <div class="hours">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <span>Mon–Sun 7:00 AM – 11:00 PM</span>
+        </div>
+      </div>
+
+      <div class="ticket" id="ticket">
+        <span class="notch l" aria-hidden="true"></span>
+        <span class="notch r" aria-hidden="true"></span>
+        <form id="reserveForm" novalidate>
+          <div class="ticket-head">
+            <span class="t">Admit One Tab</span>
+            <span class="n">№ 08246</span>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="name">Your Name</label><input id="name" name="name" type="text" placeholder="M. dela Cruz" autocomplete="name" required></div>
+            <div class="field"><label for="party">Party Size</label>
+              <select id="party" name="party" required>
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7">7 Guests</option>
+                <option value="8">8 Guests</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="date">Date</label><input id="date" name="date" type="date" required></div>
+            <div class="field"><label for="time">Time Slot</label>
+              <select id="time" name="time" required>
+                <option>12:00 PM</option><option>1:00 PM</option><option>6:00 PM</option><option>7:00 PM</option>
+                <option selected>7:30 PM</option><option>8:00 PM</option><option>9:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="phone">Contact Information</label><input id="phone" name="phone" type="tel" placeholder="0950-6544-645" autocomplete="tel" required></div>
+            <div class="field"><label for="birthday">Birthday <span style="text-transform:none;font-weight:400">(optional)</span></label><input id="birthday" name="birthday" type="date"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="email">Email Address</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+            <div></div>
+          </div>
+          <button class="submit" type="submit">Confirm Reservation</button>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col brand">
+        <p class="wordmark display">Beat<em>Food</em></p>
+        <p class="about">Main dishes with a pulse. Come hungry, leave humming. The ultimate destination for food &amp; vinyl fans in Pampanga.</p>
+        <div class="socials">
+          <a href="#" aria-label="BeatFood on Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="BeatFood on Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <p class="txt">128 Rhythm Ave, Angeles City, Pampanga, Philippines</p>
+        <p class="txt m">+63 (45) 992-1200</p>
+        <p class="txt m">seandeniel3@gmail.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <ul class="txt">
+          <li>Mon - Fri: 7:00 AM - 11:00 PM</li>
+          <li>Sat - Sun: 8:00 AM - 12:00 AM</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="links">
+          <li><a href="#menu">Menu Tracklist</a></li>
+          <li><a href="#top">Diner Reviews</a></li>
+          <li><a href="#reserve">Table Reservations</a></li>
+          <li><a href="#about">Acoustic Concept</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>© 2026 BeatFood. All rights reserved.</p>
+      <p class="m">Midterm Mockup — School of Computing, Holy Angel University</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
 </body>
 </html>
