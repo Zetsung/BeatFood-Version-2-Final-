@@ -1,1 +1,27 @@
+:root {
+  color-scheme: light;
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --row-a: #fafaf8;
+  --row-b: #ffffff;
+  --ink: #201c1a;
+  --brown: #4a3226;
+  --tan: #9c7a54;
+  --muted: #8b8680;
+  --line: #eae7e2;
+  --lead: #472700;
+  --header-bg: rgba(255, 128, 0, 0.42);
+  --header-line: #c3aa81;
+  --console-line: #e98b59;
+  --solid: #4a3226;
+  --on-solid: #fafaf8;
+  --dark: #1f1a17;
+  --footer: #2e1f17;
+  --on-dark: #ece9e6;
+  --menu-veil: rgba(255, 255, 255, 0.1);
+  --shadow-card: 0 8px 24px rgba(46, 31, 23, 0.03);
 
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
