@@ -282,3 +282,11 @@ button { cursor: pointer; }
 .stars { font-size: 20px; color: #9c7a54; line-height: normal; letter-spacing: 0; }
 .review blockquote { margin: 0; font-family: var(--font-display); font-style: italic; font-weight: 400; font-variation-settings: "SOFT" 0, "WONK" 1; font-size: 18px; line-height: 1.6; color: var(--on-dark); }
 .review figcaption { font-family: var(--font-mono); font-weight: 700; font-size: 12px; text-transform: uppercase; color: #8b8680; }
+
+/* ---------- Reserve ---------- */
+.reserve .wrap { padding-top: 120px; padding-bottom: 120px; display: grid; grid-template-columns: 1fr 634px; gap: 60px; align-items: center; }
+.reserve-left { display: flex; flex-direction: column; gap: 24px; }
+.reserve-left h2 { font-size: 48px; line-height: 1.1; color: var(--brown); }
+.reserve-left p.body { font-size: 16px; line-height: 1.6; color: var(--brown); }
+.hours { display: flex; align-items: center; gap: 12px; font-family: var(--font-mono); font-size: 14px; color: var(--ink); }
+.hours svg { flex-shrink: 0; stroke: var(--ink); }
