@@ -160,3 +160,8 @@ button { cursor: pointer; }
 .btn { display: inline-block; font-weight: 700; font-size: 15px; padding: 16px 28px; border-radius: 100px; border: 2px solid var(--solid); line-height: normal; }
 .btn-solid { background: var(--solid); color: var(--on-solid); }
 .btn-outline { background: transparent; color: var(--brown); border-color: var(--brown); }
+
+.console {
+  background: var(--surface); border: 1px solid var(--console-line); border-radius: 16px; padding: 24px;
+  display: flex; flex-direction: column; gap: 20px; box-shadow: 0 8px 12px rgba(46, 31, 23, 0.03);
+}
