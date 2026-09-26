@@ -1,3 +1,4 @@
+/* ---------- Design tokens (from Figma) ---------- */
 :root {
   color-scheme: light;
   --bg: #fafaf8;
@@ -306,7 +307,6 @@ button { cursor: pointer; }
   width: 100%; background: transparent; border: 0; border-bottom: 1px solid #8b8680; border-radius: 0;
   padding: 8px 0; font-size: 14px; color: #201c1a; appearance: none; -webkit-appearance: none; line-height: normal;
 }
-
 .field select { background-image: linear-gradient(45deg, transparent 50%, #4a3226 50%), linear-gradient(135deg, #4a3226 50%, transparent 50%); background-position: calc(100% - 10px) 55%, calc(100% - 5px) 55%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 24px; }
 .field input::placeholder { color: #6d6862; opacity: 1; }
 .field input:focus, .field select:focus { outline: none; border-bottom-color: #4a3226; box-shadow: 0 1px 0 #4a3226; }
@@ -348,7 +348,6 @@ button { cursor: pointer; }
   .now-card { left: auto; right: 40px; }
   .reserve .wrap { grid-template-columns: 1fr 1fr; }
 }
-
 @media (max-width: 1000px) {
   .hero .wrap { flex-direction: column; align-items: stretch; padding-top: 48px; padding-bottom: 48px; gap: 48px; min-height: 0; }
   .hero-left { width: 100%; }
@@ -370,7 +369,6 @@ button { cursor: pointer; }
   .nav a { padding: 14px 2px; border-bottom: 1px solid var(--line); }
   .header-right { margin-left: auto; margin-right: 12px; }
 }
-
 @media (max-width: 720px) {
   .wrap { padding-left: 20px; padding-right: 20px; }
   .nav { padding: 8px 20px 16px; }
