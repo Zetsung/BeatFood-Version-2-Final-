@@ -370,3 +370,27 @@ button { cursor: pointer; }
   .nav a { padding: 14px 2px; border-bottom: 1px solid var(--line); }
   .header-right { margin-left: auto; margin-right: 12px; }
 }
+
+@media (max-width: 720px) {
+  .wrap { padding-left: 20px; padding-right: 20px; }
+  .nav { padding: 8px 20px 16px; }
+  .phone { display: none; }
+  .hero h1 { font-size: 44px; }
+  .lead { font-size: 16px; }
+  .faders { gap: 16px; }
+  .section-title, .reviews h2 { font-size: 32px; }
+  .menu h2, .reserve-left h2 { font-size: 36px; }
+  .m-row.tall, .m-row.short { height: auto; flex-direction: column; }
+  .m-big { height: 240px; flex: none; }
+  .m-stack { width: 100%; flex-direction: row; height: 180px; }
+  .m-row.short .photo { flex: none; height: 200px; }
+  .footer-col { flex-basis: 100%; }
+  .footer-bottom { flex-direction: column; }
+  .ticket { padding: 24px 20px; }
+  .form-row { grid-template-columns: 1fr; }
+  .title-row { flex-wrap: wrap; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .disc { animation: none; }
+}
