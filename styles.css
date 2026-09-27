@@ -205,7 +205,10 @@ button { cursor: pointer; }
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 .now-card {
-  position: absolute; z-index: 3; left: calc(50% + 197px); bottom: 85px; width: 240px;
+  position: absolute; z-index: 3;
+  left: clamp(56%, calc(50% + 6vw), calc(50% + 197px));
+  bottom: clamp(40px, 8vw, 85px);
+  width: clamp(180px, 20vw, 240px);
   background: #fff; border: 1px solid #ff5900; border-radius: 12px; padding: 16px;
   display: flex; flex-direction: column; gap: 12px;
   box-shadow: 0 12px 12px rgba(75, 50, 37, 0.1), inset 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -392,3 +395,4 @@ button { cursor: pointer; }
   html { scroll-behavior: auto; }
   .disc { animation: none; }
 }
+
