@@ -185,17 +185,25 @@ button { cursor: pointer; }
 
 .cork {
   position: absolute; right: 0; top: 50%; transform: translateY(calc(-50% - 4px)); z-index: 0;
-  width: 523px; height: 692px; border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  width: clamp(280px, 38vw, 523px);
+  height: clamp(380px, 50vw, 692px);
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
   background:
     radial-gradient(#8f5f2f 1px, transparent 1.6px) 0 0 / 9px 9px,
     radial-gradient(#6f4720 1px, transparent 1.6px) 4px 5px / 13px 11px,
     radial-gradient(circle at 35% 40%, #e6b884, #d19a5a 55%, #b98246);
   opacity: 0.95;
 }
-.hero-right { position: absolute; z-index: 1; left: calc(50% + 246px); top: 50%; transform: translateY(-50%); width: 480px; height: 480px; }
-.vinyl-ring { width: 480px; height: 480px; border: 1px dashed var(--tan); border-radius: 240px; display: grid; place-items: center; }
+.hero-right {
+  position: absolute; z-index: 1;
+  left: clamp(52%, calc(50% + 8vw), calc(50% + 246px));
+  top: 50%; transform: translateY(-50%);
+  width: clamp(220px, 30vw, 480px);
+  height: clamp(220px, 30vw, 480px);
+}
+.vinyl-ring { width: 100%; height: 100%; border: 1px dashed var(--tan); border-radius: 240px; display: grid; place-items: center; }
 .disc {
-  width: 420px; height: 420px; border-radius: 50%;
+  width: 87.5%; height: 87.5%; border-radius: 50%;
   background:
     radial-gradient(circle, #14110f 0 1.6%, #9c7a54 1.8% 20%, #4a3226 20.4% 21.4%, #9c7a54 21.8% 31%, transparent 31.4%),
     conic-gradient(from 30deg, rgba(255,255,255,0) 0 18%, rgba(255,255,255,.12) 25%, rgba(255,255,255,0) 32%, rgba(255,255,255,0) 68%, rgba(255,255,255,.12) 75%, rgba(255,255,255,0) 82%),
