@@ -148,7 +148,7 @@ button { cursor: pointer; }
 /* ---------- Hero ---------- */
 .hero { position: relative; overflow: hidden; }
 .hero .wrap { position: relative; min-height: 875px; display: flex; align-items: center; padding-top: 80px; padding-bottom: 80px; }
-.hero-left { width: 656px; display: flex; flex-direction: column; gap: 32px; position: relative; z-index: 2; }
+.hero-left { width: clamp(320px, 54%, 656px); display: flex; flex-direction: column; gap: 32px; position: relative; z-index: 2; }
 .eyebrow { display: flex; align-items: center; gap: 12px; }
 .eyebrow i { display: block; width: 24px; height: 2px; background: var(--tan); }
 .hero h1 { font-size: 64px; line-height: 1.1; color: var(--ink); }
