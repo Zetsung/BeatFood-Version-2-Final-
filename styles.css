@@ -234,7 +234,7 @@ button { cursor: pointer; }
 .section-head { display: flex; flex-direction: column; gap: 8px; }
 .section-head.center { align-items: center; text-align: center; }
 .cards { display: flex; gap: 32px; align-items: stretch; }
-.dish-card { flex: none; min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow-card); overflow: hidden; display: flex; flex-direction: column; }
+.dish-card {min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow-card); overflow: hidden; display: flex; flex-direction: column; }
 .card-image { height: 260px; padding: 16px; display: flex; align-items: flex-start; }
 .badge { position: relative; z-index: 2; background: #fafaf8; color: #4a3226; font-family: var(--font-mono); font-weight: 600; font-size: 11px; padding: 6px 12px; border-radius: 100px; line-height: normal; }
 .card-details { padding: 24px; display: flex; flex-direction: column; gap: 16px; }
@@ -372,6 +372,7 @@ button { cursor: pointer; }
 @media (max-width: 720px) {
   .wrap { padding-left: 20px; padding-right: 20px; }
   .nav { padding: 8px 20px 16px; }
+  .phone { display: none; }
   .hero h1 { font-size: 44px; }
   .cork { display: none; }
   .lead { font-size: 16px; }
